@@ -1,4 +1,0 @@
-import dask.array as da
-from dask.diagnostics import Profiler
-
-a = da.random.random(size=(10000, 1000), chunks=(1000, 1000))
